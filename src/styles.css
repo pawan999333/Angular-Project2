@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+@font-face {
+  font-family: "MyFont";
+  src: url("./assets/fonts/DMSans-VariableFont_opsz\,wght.ttf")
+    format("truetype");
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
+.loginGoogle iframe {
+  margin: 0 auto !important;
+}
